@@ -18,7 +18,7 @@ public class ContaTerminal {
         System.out.println("Digite o nome do cliente");
         nomeCliente = scan.next();
 
-        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numeroConta + " e seu saldo " + saldo + " já está disponivel para sague.");
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é: " + agencia + ", conta: " + numeroConta + " e seu saldo " + saldo + " já está disponivel para sague.");
 
     }
 }
